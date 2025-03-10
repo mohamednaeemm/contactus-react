@@ -1,4 +1,5 @@
 import React from 'react'
+import contactImage from '../assets/contact.svg';
 
 const Main = () => {
   return (
@@ -34,7 +35,7 @@ const Main = () => {
                 <button className='submit-button'>Submit</button>
             </form>
             <div className="main-img">
-                <img src="src\assets\contact.svg" alt="Image"/>
+                <img src={contactImage} alt="Image"/>
             </div>
         </div>
       

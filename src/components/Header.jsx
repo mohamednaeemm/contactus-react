@@ -1,11 +1,13 @@
 import React from 'react'
+import logo from '../assets/logo.svg';
+
 
 const Header = () => {
     return (
         <div>
             <nav>
                 <div className='logo'>
-                    <img src="src\assets\logo.svg" alt="Logo"/>
+                    <img src={logo} alt="Logo"/>
                 </div>
                 <ul>
                     <li><a href="#home">Home</a></li>
